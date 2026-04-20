@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ernestol Films</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <meta name="google-site-verification" content=" google17b88836bf60fb3e.html">
+<title>Ernestol Films - Videographer in Kigali</title>
+
+<!-- GOOGLE VERIFICATION -->
+<meta name="google-site-verification" content="4_M78fCzib7s_eB3PPlv6fi8YJSB9FPtVaB9a8M9eJg" />
+
+<!-- SEO -->
+<meta name="title" content="Ernestol Films - Videographer in Kigali">
+<meta name="description" content="Professional videography in Kigali Rwanda. Weddings, events and commercials.">
+<meta name="keywords" content="videographer Kigali, wedding video Rwanda, film production Kigali">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,13 +32,13 @@
 <!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-content">
-    <h1>Luxury Cinematic Films</h1>
+    <h1>Professional Videographer in Kigali</h1>
     <p>Weddings • Events • Commercials</p>
     <button onclick="scrollToMovies()">Watch Films</button>
   </div>
 </section>
 
-<!-- MOVIES NETFLIX STYLE -->
+<!-- MOVIES -->
 <section id="movies" class="section">
 
   <h2>Featured Films</h2>
@@ -39,12 +47,12 @@
     <h3>Weddings</h3>
     <div class="row-posters">
 
-      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/tgbNymZ7vqY')">
-        <img src="https://picsum.photos/300/200?1">
+      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/YOUR_VIDEO')">
+        <img src="your-image1.jpg">
       </div>
 
-      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/tgbNymZ7vqY')">
-        <img src="https://picsum.photos/300/200?2">
+      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/YOUR_VIDEO')">
+        <img src="your-image2.jpg">
       </div>
 
     </div>
@@ -54,12 +62,12 @@
     <h3>Events</h3>
     <div class="row-posters">
 
-      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/tgbNymZ7vqY')">
-        <img src="https://picsum.photos/300/200?3">
+      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/YOUR_VIDEO')">
+        <img src="your-image3.jpg">
       </div>
 
-      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/tgbNymZ7vqY')">
-        <img src="https://picsum.photos/300/200?4">
+      <div class="poster" onclick="playVideo('https://www.youtube.com/embed/YOUR_VIDEO')">
+        <img src="your-image4.jpg">
       </div>
 
     </div>
@@ -88,13 +96,17 @@
   <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<!-- PAYMENT POPUP -->
+<!-- PAYWALL -->
 <div id="paywall" class="paywall">
   <h2>🔒 Premium Content</h2>
-  <p>Pay Mobile Money to watch</p>
-  <button onclick="pay()">Pay 5000 RWF</button>
+  <p>Pay 5000 RWF to watch</p>
+  <button onclick="pay()">Pay Now</button>
   <button onclick="closePaywall()">Cancel</button>
 </div>
+
+<footer>
+  <p>© 2026 Ernestol Films</p>
+</footer>
 
 <script>
 let selectedVideo="";
